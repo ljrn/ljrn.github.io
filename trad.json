@@ -1,0 +1,44 @@
+{
+    "french" : {
+        "about" : "A propos de moi",
+        "work" : "Mes travaux",
+        "contact" : "Me contacter",
+        "my-works" : "Mes travaux",
+        "graph-modeling" : "Application de modélisation de graphes",
+        "graph-modeling-text" : "Cette application a été créée pour générer un grpahe depuis un modèle pour résoudre des problèmes de transports",
+        "forecast" : "Logiciel de calculs prévisionnels",
+        "forecast-text" : "Ce logiciel a été réalisé, en collaboration avec un ingénieur du bâtiment, pour faciliter les décisions en matière de travaux sur les structures d’ingénierie. Il calcule l’état des structures d’ingénierie sur une période donnée et donne les coûts potentiels des réparations.",
+        "stat-pavement" : "Analyse statistique de la notation des chaussées",
+        "stat-pavement-text" : "Cette analyse a été faite pour aider la direction à prendre des décisions sur les travaux à effectuer.",
+        "secure-novanet" : "Sécurisation d'une application Web contre les vulnérabilités XSS",
+        "secure-novanet-text" : "Ce projet a été réalisé pour sécuriser Novanet, un logiciel d'Antenia, contre les vulnérabilités XSS.",
+        "secure-chat" : "Chat en ligne sécurisé",
+        "secure-chat-text" : "Création d'un chat Web sécurisé avec cryptage RSA et mots de passe SALT.",
+        "video-games" : "Site web de recherche de jeux-vidéos",
+        "video-games-text" : "Création d’un site Web de recherche de jeux vidéo avec le modèle simple page app (SPA) et la programmation par composants.",
+        "web-server" : "Serveur web",
+        "web-server-text" : "Développement d'un serveur web",
+        "M3d" : "Logiciel de modélisation 3D",
+        "M3d-text" : "Ce logiciel a été créé pour transformer les modèles . ply en modèles 3D en utilisant JavaFX et le design pattern MVC. Il a été développé en collaboration avec trois collègues nommés Baptiste Momut, Mohamed Bourdim et Mohnes Hamroun.",
+        "about-me-text" : "A propos de moi",
+        "about-text" : "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant qu’Ingénieur Logiciel. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Université Institut de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
+        "lang" : "Langues",
+        "french" : "Français",
+        "english" : "Anglais",
+        "spanish" : "Espagnol",
+        "portuguese" : "Portugais",
+        "contact-me-text" : "Me contacter",
+        "name" : "nom",
+        "message" : "votre message",
+        "send-btn" : "envoyer"
+    },
+    "english" : {
+
+    },
+    "spanish" : {
+
+    },
+    "portuguese" : {
+
+    }
+}
