@@ -113,6 +113,7 @@ a:hover{
     font-size:70px;
     text-decoration:underline;
 }
+
 #about {
     width:10vw;
     height:10vw;
@@ -493,23 +494,12 @@ h2.not-visible.scrolled.slide{
     transition: 0.5s;
 }
 
-.drop{
-    position:absolute;
-    top:-400px;
-    border: solid 1px;
-    background-color:purple;
-    animation: drop 2s ease forwards;
-    animation-iteration-count:infinite;
-  }
-
-:root{
-    --n-height : 0;
-    --n-width : 0;
+.fadeInButton {
+    animation: fadeIn 1.5s normal;
 }
 
-@keyframes drop{
-    0%{opacity: 0}
-    70%{transform: translateY(var(--n-height))}
-    100%{transform: translateY(var(--n-width))}
-  }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 

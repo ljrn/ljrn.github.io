@@ -154,9 +154,12 @@ const changeLanguage = (language) => {
   }else{
     traduction = trad.english;
   }
-  document.querySelector('#about').innerHTML='<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>'+traduction.about;
-  document.querySelector('#work').innerHTML='<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>'+traduction.work;
-  document.querySelector('#contact').innerHTML='<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>'+traduction.contact;
+  $('#about').toggleClass('fadeInButton');
+  setTimeout(()=>{document.querySelector('#about').innerHTML='<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>'+traduction.about;},10);
+  setTimeout(()=>{$('#contact').toggleClass('fadeInButton');},10);
+  setTimeout(()=>{document.querySelector('#contact').innerHTML='<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>'+traduction.contact;},350);
+  setTimeout(()=>{$('#work').toggleClass('fadeInButton')},550);
+  setTimeout(()=>{document.querySelector('#work').innerHTML='<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>'+traduction.work;},800);
   document.querySelector('#m-about').textContent=traduction.about;
   document.querySelector('#m-work').textContent=traduction.work;
   document.querySelector('#m-contact').textContent=traduction.contact;
@@ -189,6 +192,11 @@ const changeLanguage = (language) => {
   document.querySelector('#name').placeholder=traduction.name;
   document.querySelector('#message').placeholder=traduction.message;
   document.querySelector('#send-btn').textContent=traduction.send_btn;
+  setTimeout(() => {
+    $('#about').removeClass('fadeInButton');
+    $('#work').removeClass('fadeInButton');
+    $('#contact').removeClass('fadeInButton');
+  }, 2000);
 }
 
 changeLanguage('EN');
