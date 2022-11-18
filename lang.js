@@ -1,3 +1,4 @@
+//Traduction object
 const trad={
   "french" : {
       "about" : "À propos de moi",
@@ -137,10 +138,12 @@ const trad={
   }
 };
 
+
+//Set default language to english
 let selectedLanguage=document.getElementById('EN');
 let traduction = trad.english;
 
-
+//Change the language of the page
 const changeLanguage = (language) => {
   selectedLanguage.classList.remove('selected');
   selectedLanguage=document.getElementById(language);
@@ -200,6 +203,7 @@ const changeLanguage = (language) => {
 
 changeLanguage('EN');
 
+//Writing effect
 var speed=50;
 var closeAbout=false;
 
