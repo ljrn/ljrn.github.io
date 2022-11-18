@@ -21,18 +21,6 @@ function openOrCloseOtherPage(otherPage, slide,close){
     }
 }
 
-  var i = 0;
-  var txt = 'Software Engineer / Data Analyst';
-  var speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("workname").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
@@ -42,7 +30,7 @@ setTimeout(function(){
       $("#about").removeClass("animated fadeIn");
       $("#contact").removeClass("animated fadeIn");
       $("#work").removeClass("animated fadeIn");
-      typeWriter();
+      typeWriter('workname');
     },1000);
 },1500);
 

@@ -1,6 +1,6 @@
 const trad={
   "french" : {
-      "about" : "A propos de moi",
+      "about" : "À propos de moi",
       "work" : "Mes travaux",
       "contact" : "Me contacter",
       "my_works" : "Mes travaux",
@@ -20,8 +20,8 @@ const trad={
       "web_server_text" : "Développement d'un serveur web",
       "M3d" : "Logiciel de modélisation 3D",
       "M3d_text" : "Ce logiciel a été créé pour transformer les modèles . ply en modèles 3D en utilisant JavaFX et le design pattern MVC. Il a été développé en collaboration avec trois collègues nommés Baptiste Momut, Mohamed Bourdim et Mohnes Hamroun.",
-      "about_me_text" : "A propos de moi",
-      "about_text" : "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant qu’Ingénieur Logiciel. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Université Institut de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
+      "about_me_text" : "À propos de moi",
+      "about_text" : "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant qu’Ingénieur Logiciel. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Institut Universitaire de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
       "skills" : "Mes compétences",
       "lang" : "Langues",
       "french" : "Français",
@@ -181,7 +181,6 @@ const changeLanguage = (language) => {
   document.querySelector('#M3d').textContent=traduction.M3d;
   document.querySelector('#M3d-text').textContent=traduction.M3d_text;
   document.querySelector('#about-me-text').textContent=traduction.about_me_text;
-  document.querySelector('#about-text').textContent=traduction.about_text;
   document.querySelector('#skills').textContent=traduction.skills;
   document.querySelector('#lang').textContent=traduction.lang;
   document.querySelector('#french').innerHTML='<i class="fas fa-globe"></i>'+traduction.french;
@@ -200,4 +199,29 @@ const changeLanguage = (language) => {
 }
 
 changeLanguage('EN');
+
+var speed=50;
+var closeAbout=false;
+
+function typeWriterExecute(txt,i,container) {
+  if (i < txt.length && !closeAbout){
+    document.getElementById(container).innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriterExecute, speed, txt, i,container);
+  }else if(closeAbout){
+    setTimeout(()=>{document.getElementById(container).innerHTML = '';},1000);
+  }
+}
+
+function typeWriter(container) {
+  var i=0;
+  var txt='Software Engineer / Data Analyst';
+  speed=50;
+  if(container=='about-text'){
+    txt=traduction.about_text;
+    speed=20;
+  }
+  document.getElementById(container).innerHTML = '';
+  typeWriterExecute(txt,i,container,speed);
+}
 

@@ -31,7 +31,7 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="openOrCloseOtherPage('#about_container','animated slideInLeft',false)"
+    <a id="about" onclick="openOrCloseOtherPage('#about_container','animated slideInLeft',false); closeAbout=false; typeWriter('about-text');"
         class="liens btnfos btnfos-1 fadeInButton"></a>
     <a id="work" onclick="openOrCloseOtherPage('#work_container','animated slideInRight',false)"
         class="liens btnfos btnfos-1 fadeInButton"></a>
@@ -206,7 +206,7 @@
     <div id="about_container" class="container">
         <div class="row">
             <h1 class="col-11" style="padding-left: 0 !important; " id="about-me-text"></h1>
-            <div class="col-1" onclick="openOrCloseOtherPage('#about_container','animated slideOutLeft',true)"><i
+            <div class="col-1" onclick="openOrCloseOtherPage('#about_container','animated slideOutLeft',true); closeAbout=true"><i
                     class="fas fa-angle-left close-window liens"></i></div>
         </div>
         <section>
