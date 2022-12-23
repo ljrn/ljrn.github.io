@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js" type="text/javascript" defer></script>
     <script src="lang.js" type="text/javascript" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('vc1oCiE05nL4ssWEF');
+        })();
+    </script>
 </head>
 
 <body>
@@ -43,8 +49,10 @@
                     id="ES" onclick="changeLanguage('ES')">ES</b>|<b class="liens choixLangue" id="PT"
                     onclick="changeLanguage('PT')">PT</b></p>
         </div>
-        <h1>Louis Jeronimo</h1>
-        <h2 id="workname"></h2>
+        <div id="levit">
+            <h1>Louis Jeronimo</h1>
+            <h2 id="workname"></h2>
+        </div>
         <div id="menu">
             <a onclick="openOrCloseOtherPage('#about_container','animated slideInLeft',false)" class="liens"
                 id="m-about"></a>
@@ -249,15 +257,19 @@
         </div>
         <section>
             <p>
-            <form method="post">
-                <input type="text" placeholder="name" name="name" class="liens" id="name" required>
-                <input type="email" placeholder="email" name="email" class="liens" id="email" required><br>
+            <form id="contact-form">
+                <input type="hidden" name="contact_number">
+                <input type="text" placeholder="name" name="user_name" class="liens" id="name" required>
+                <input type="email" placeholder="email" name="user_email" class="liens" id="email" required><br>
                 <textarea placeholder="your message" name="message" required class="liens" id="message"
                     rows="5"></textarea><br>
                 <button class="btn_one" class="liens" id="send-btn"></button>
             </form>
             </p>
         </section>
+        <div id="email-status" style="display: none;" class="alert alert-success" role="alert">
+            Your email has been successfuly sent !
+        </div>
     </div>
     <div class="cursor"></div>
     <script src="particles.js"></script>

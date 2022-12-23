@@ -1,40 +1,40 @@
 //Change the page displayed
-function openOrCloseOtherPage(otherPage, slide,close){
-    if(!close)$(otherPage).css("display","inherit");
-    $(otherPage).addClass(slide)
-    setTimeout(function(){
-        $(otherPage).removeClass(slide);
-        if(close){
-            $(otherPage).css("display","none");
-            if(otherPage=='#about_container'){
-              document.querySelectorAll('.pin').forEach((el)=>{
-                el.classList.remove('drop');
-              })
-            }
-        }
-    },800);
-    if(otherPage=='#about_container'){
-      document.querySelectorAll('.pin').forEach((el)=>{
-        el.classList.add('animated');
-        el.classList.add('slideInDown');
-        el.style.animationDelay='0.2s';
-      })
+function openOrCloseOtherPage(otherPage, slide, close) {
+  if (!close) $(otherPage).css("display", "inherit");
+  $(otherPage).addClass(slide)
+  setTimeout(function () {
+    $(otherPage).removeClass(slide);
+    if (close) {
+      $(otherPage).css("display", "none");
+      if (otherPage == '#about_container') {
+        document.querySelectorAll('.pin').forEach((el) => {
+          el.classList.remove('drop');
+        })
+      }
     }
+  }, 800);
+  if (otherPage == '#about_container') {
+    document.querySelectorAll('.pin').forEach((el) => {
+      el.classList.add('animated');
+      el.classList.add('slideInDown');
+      el.style.animationDelay = '0.2s';
+    })
+  }
 }
 
 //Add timeout to animations
-setTimeout(function(){
-    $("#loading").addClass("animated fadeOut");
-    setTimeout(function(){
-      $("#loading").removeClass("animated fadeOut");
-      $("#loading").css("display","none");
-      $("#box").css("display","none");
-      $("#about").removeClass("animated fadeIn");
-      $("#contact").removeClass("animated fadeIn");
-      $("#work").removeClass("animated fadeIn");
-      typeWriter('workname');
-    },1000);
-},1500);
+setTimeout(function () {
+  $("#loading").addClass("animated fadeOut");
+  setTimeout(function () {
+    $("#loading").removeClass("animated fadeOut");
+    $("#loading").css("display", "none");
+    $("#box").css("display", "none");
+    $("#about").removeClass("animated fadeIn");
+    $("#contact").removeClass("animated fadeIn");
+    $("#work").removeClass("animated fadeIn");
+    typeWriter('workname');
+  }, 1000);
+}, 1500);
 
 //-----------------------------------SCROLL ANIMATION--------------------------------------------------------
 //Detect elements with the class js-scroll
@@ -81,7 +81,7 @@ const handleScrollAnimation = () => {
 }
 
 //Start animation on scroll
-document.getElementById('work_container').addEventListener("scroll", () => { 
+document.getElementById('work_container').addEventListener("scroll", () => {
   handleScrollAnimation();
 });
 
@@ -96,30 +96,30 @@ const navlinks = document.querySelectorAll(".liens");
 
 //Add listener when the mouse is moved
 document.addEventListener("mousemove", (e) => {
-    let leftPosition = e.pageX + 4;
-    let topPosition = e.pageY + 4;
+  let leftPosition = e.pageX + 4;
+  let topPosition = e.pageY + 4;
 
-    cursor.style.left = leftPosition + "px";
-    cursor.style.top = topPosition + "px";
+  cursor.style.left = leftPosition + "px";
+  cursor.style.top = topPosition + "px";
 })
 
 //Increase the size of the cursor on entering a link
 links.forEach(link => {
-    link.addEventListener("mouseenter", () => {
-        cursor.classList.add("large");
-    })
+  link.addEventListener("mouseenter", () => {
+    cursor.classList.add("large");
+  })
 })
 
 //Decrease the size of the cursor on leaving a link
 links.forEach(link => {
-    link.addEventListener("mouseleave", () => {
-        cursor.classList.remove("large");
-    })
+  link.addEventListener("mouseleave", () => {
+    cursor.classList.remove("large");
+  })
 })
 
 //Add delay to animation
 navlinks.forEach((li, i) => {
-    li.style.animationDelay = 0 + i * 140 + "ms";
+  li.style.animationDelay = 0 + i * 140 + "ms";
 })
 
 //--------------------------------------------END OF CURSOR-----------------------------------
