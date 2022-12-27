@@ -229,29 +229,29 @@ function typeWriter(container) {
   typeWriterExecute(txt, i, container, speed);
 }
 
-window.onload = function() {
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-      event.preventDefault();
-      // generate a five digit number for the contact_number variable
-      this.contact_number.value = Math.random() * 100000 | 0;
-      // these IDs from the previous steps
-      let email_status = document.getElementById('email-status');
-      emailjs.sendForm('service_yq9xr15', 'template_qucmz4e', this)
-          .then(function() {
-            email_status.style.display='block';
-            setTimeout(function(){  
-              email_status.style.display='none';
-            },4000);
-          }, function(error) {
-            email_status.classList.remove('alert-success');
-            email_status.classList.add('alert-danger');
-            email_status.textContent='ERROR ! Your email has not been sent !'
-            email_status.style.display='block';
-            setTimeout(function(){  
-              email_status.style.display='none';
-              email_status.classList.remove('alert-danger');
-              email_status.classList.add('alert-sucess');
-            },4000);
-          });
+/*window.onload = function () {
+  document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+    // generate a five digit number for the contact_number variable
+    this.contact_number.value = Math.random() * 100000 | 0;
+    // these IDs from the previous steps
+    let email_status = document.getElementById('email-status');
+    emailjs.sendForm('service_yq9xr15', 'template_qucmz4e', this)
+      .then(function () {
+        email_status.style.display = 'block';
+        setTimeout(function () {
+          email_status.style.display = 'none';
+        }, 4000);
+      }, function (error) {
+        email_status.classList.remove('alert-success');
+        email_status.classList.add('alert-danger');
+        email_status.textContent = 'ERROR ! Your email has not been sent !'
+        email_status.style.display = 'block';
+        setTimeout(function () {
+          email_status.style.display = 'none';
+          email_status.classList.remove('alert-danger');
+          email_status.classList.add('alert-sucess');
+        }, 4000);
+      });
   });
-}
+}*/
