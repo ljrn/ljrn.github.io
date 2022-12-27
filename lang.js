@@ -164,6 +164,7 @@ const changeLanguage = (language) => {
   setTimeout(() => { $('#work').toggleClass('fadeInButton') }, 550);
   setTimeout(() => { document.querySelector('#work').innerHTML = '<svg><rect x="0" y="0" fill="none" width="100%" height="100%" /></svg>' + traduction.work; }, 800);
   document.querySelector('#m-about').textContent = traduction.about;
+  document.querySelector('#about-text').textContent = traduction.about_text;
   document.querySelector('#m-work').textContent = traduction.work;
   document.querySelector('#m-contact').textContent = traduction.contact;
   document.querySelector('#my-works').textContent = traduction.my_works;
@@ -205,28 +206,14 @@ changeLanguage('EN');
 
 //Writing effect
 var speed = 50;
-var closeAbout = false;
-
-function typeWriterExecute(txt, i, container) {
-  if (i < txt.length && !closeAbout) {
+var i = 0;
+var txt = 'Software Engineer / Data Analyst';
+function typeWriter(container) {
+  if (i < txt.length) {
     document.getElementById(container).innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriterExecute, speed, txt, i, container);
-  } else if (closeAbout) {
-    setTimeout(() => { document.getElementById(container).innerHTML = ''; }, 1000);
+    setTimeout(typeWriter, speed, container);
   }
-}
-
-function typeWriter(container) {
-  var i = 0;
-  var txt = 'Software Engineer / Data Analyst';
-  speed = 50;
-  if (container == 'about-text') {
-    txt = traduction.about_text;
-    speed = 20;
-  }
-  document.getElementById(container).innerHTML = '';
-  typeWriterExecute(txt, i, container, speed);
 }
 
 window.onload = function () {

@@ -398,22 +398,6 @@ h2.not-visible.scrolled.slide {
     color: #000;
 }
 
-#footer {
-    color: #000;
-    width: 92vw;
-    padding: 5vh 4vw;
-    text-align: right;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-#footer a {
-    color: rgba(250, 207, 15, 1);
-}
-
 #particles-js {
     position: fixed;
     width: 100vw;
@@ -453,10 +437,6 @@ h2.not-visible.scrolled.slide {
 
     #work {
         display: none;
-    }
-
-    #footer {
-        text-align: center;
     }
 
     #middle {
