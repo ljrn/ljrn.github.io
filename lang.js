@@ -5,6 +5,8 @@ const trad = {
     "work": "Mes travaux",
     "contact": "Me contacter",
     "my_works": "Mes travaux",
+    "portfolio": "Portfolio",
+    "portfolio_text": "Ce portfolio a été créé pour résumer mon CV et présenter plus précisément mes projets.",
     "graph_modeling": "Application de modélisation de graphes",
     "graph_modeling_text": "Cette application a été créée pour générer un grpahe depuis un modèle pour résoudre des problèmes de transports",
     "forecast": "Logiciel de calculs prévisionnels",
@@ -39,6 +41,8 @@ const trad = {
     "work": "My work",
     "contact": "Contact me",
     "my_works": "My work",
+    "portfolio": "Portfolio",
+    "portfolio_text": "This portfolio was created to summarize my resume and present more precisely my projects.",
     "graph_modeling": "Graph Modeling Application",
     "graph_modeling_text": "This application was made to generate a graph from a model to resolve transport problems.",
     "forecast": "Forecast Calculation Software",
@@ -73,6 +77,8 @@ const trad = {
     "work": "Mis trabajos",
     "contact": "Contactarme",
     "my_works": "Mis trabajos",
+    "portfolio": "Cartera",
+    "portfolio_text": "Esta cartera fue creada para resumir mi currículum y presentar más precisamente mis proyectos.",
     "graph_modeling": "Aplicación de modelado gráfo",
     "graph_modeling_text": "Esta aplicación se hizo para generar un gráfo a partir de un modelo para resolver problemas de transporte.",
     "forecast": "Software de cálculo de pronóstico",
@@ -107,6 +113,8 @@ const trad = {
     "work": "Meus trabalhos",
     "contact": "Contactar-me",
     "my_works": "Meus trabalhos",
+    "portfolio": "Carteira",
+    "portfolio_text": "Esta carteira foi criada para resumir meu currículo e apresentar mais precisamente meus projetos.",
     "graph_modeling": "Aplicação de modelagem de gráfos",
     "graph_modeling_text": "Esta aplicação foi feita para gerar um gráfo a partir de um modelo para resolver problemas de transporte.",
     "forecast": "Software de cálculo de previsão",
@@ -168,6 +176,8 @@ const changeLanguage = (language) => {
   document.querySelector('#m-work').textContent = traduction.work;
   document.querySelector('#m-contact').textContent = traduction.contact;
   document.querySelector('#my-works').textContent = traduction.my_works;
+  document.querySelector('#portfolio').textContent = traduction.portfolio;
+  document.querySelector('#portfolio-text').textContent = traduction.portfolio_text;
   document.querySelector('#graph-modeling').textContent = traduction.graph_modeling;
   document.querySelector('#graph-modeling-text').textContent = traduction.graph_modeling_text;
   document.querySelector('#forecast').textContent = traduction.forecast;
