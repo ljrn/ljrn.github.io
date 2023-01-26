@@ -28,6 +28,7 @@ const trad = {
     "skills": "Mes compétences",
     "lang": "Langues",
     "french": "Français",
+    "mother_tongue":"Langue maternelle",
     "english": "Anglais",
     "spanish": "Espagnol",
     "portuguese": "Portugais",
@@ -64,6 +65,7 @@ const trad = {
     "skills": "My skills",
     "lang": "Languages",
     "french": "French",
+    "mother_tongue":"Mother tongue",
     "english": "English",
     "spanish": "Spanish",
     "portuguese": "Portuguese",
@@ -100,6 +102,7 @@ const trad = {
     "skills": "Mis competencias",
     "lang": "Idiomas",
     "french": "Francés",
+    "mother_tongue":"Idioma materno",
     "english": "Inglés",
     "spanish": "Español",
     "portuguese": "Portugués",
@@ -136,6 +139,7 @@ const trad = {
     "skills": "Minhas competências",
     "lang": "Idiomas",
     "french": "Francês",
+    "mother_tongue":"Língua materna",
     "english": "Inglês",
     "spanish": "Espanhol",
     "portuguese": "Português",
@@ -197,10 +201,10 @@ const changeLanguage = (language) => {
   document.querySelector('#about-me-text').textContent = traduction.about_me_text;
   document.querySelector('#skills').textContent = traduction.skills;
   document.querySelector('#lang').textContent = traduction.lang;
-  document.querySelector('#french').innerHTML = '<i class="fas fa-globe"></i>' + traduction.french;
-  document.querySelector('#english').innerHTML = '<i class="fas fa-globe"></i>' + traduction.english;
-  document.querySelector('#spanish').innerHTML = '<i class="fas fa-globe"></i>' + traduction.spanish;
-  document.querySelector('#portuguese').innerHTML = '<i class="fas fa-globe"></i>' + traduction.portuguese;
+  document.querySelector('#french').innerHTML = '<i class="fas fa-globe"></i>' + traduction.french + '<div class="text">'+traduction.mother_tongue+'</div>';
+  document.querySelector('#english').innerHTML = '<i class="fas fa-globe"></i>' + traduction.english  + '<div class="text">B2 (TOEIC : 860/1000)</div>';
+  document.querySelector('#spanish').innerHTML = '<i class="fas fa-globe"></i>' + traduction.spanish  + '<div class="text">B2</div>';
+  document.querySelector('#portuguese').innerHTML = '<i class="fas fa-globe"></i>' + traduction.portuguese  + '<div class="text">B1</div>';
   document.querySelector('#contact-me-text').textContent = traduction.contact_me_text;
   document.querySelector('#name').placeholder = traduction.name;
   document.querySelector('#message').placeholder = traduction.message;
