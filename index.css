@@ -594,19 +594,21 @@ h2.not-visible.scrolled.slide {
 
 .tool .text {
     visibility: hidden;
-    width: 250px;
     background-color: black;
     color: #fff;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+    display: inline-block;
     position: absolute;
     font-size: 20px !important;
     z-index: 1;
     bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
+    left: 0%;
     transition: 0s !important;
+    display: inline-block;
+    padding: 8px 10px;
+    border: 2px solid #000;
+    margin: 10px 10px;
+    border-radius: 50px;
 }
 
 .tool:hover .text {
