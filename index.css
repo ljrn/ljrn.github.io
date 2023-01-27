@@ -612,3 +612,12 @@ h2.not-visible.scrolled.slide {
 .tool:hover .text {
     visibility: visible;
 }
+
+.flag{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 10%;
+    margin: 2px;
+    margin-bottom: 5%;
+}
