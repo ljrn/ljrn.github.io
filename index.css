@@ -597,17 +597,15 @@ h2.not-visible.scrolled.slide {
     background-color: black;
     color: #fff;
     text-align: center;
-    display: inline-block;
     position: absolute;
-    font-size: 20px !important;
+    font-size: 15px !important;
     z-index: 1;
     bottom: 100%;
     left: 0%;
     transition: 0s !important;
     display: inline-block;
-    padding: 8px 10px;
+    padding: 10px 20px 10px 20px;
     border: 2px solid #000;
-    margin: 10px 10px;
     border-radius: 50px;
 }
 
