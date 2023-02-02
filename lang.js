@@ -230,6 +230,7 @@ function typeWriter(container) {
   }
 }
 
+// Send Email
 window.onload = function () {
   document.getElementById('contact-form').addEventListener('submit', function (event) {
     event.preventDefault();
