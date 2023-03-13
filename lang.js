@@ -201,10 +201,10 @@ const changeLanguage = (language) => {
   document.querySelector('#about-me-text').textContent = traduction.about_me_text;
   document.querySelector('#skills').textContent = traduction.skills;
   document.querySelector('#lang').textContent = traduction.lang;
-  document.querySelector('#french').innerHTML = '<img class="flag" src="./images/France.png"/>' + traduction.french + '<div class="text">'+traduction.mother_tongue+'</div>';
-  document.querySelector('#english').innerHTML = '<img class="flag" src="./images/UK.png"/>' + traduction.english  + '<div class="text">C1 (TOEIC 2021: 860/1000 + Language School Certification)</div>';
-  document.querySelector('#spanish').innerHTML = '<img class="flag" src="./images/Spain.png"/>' + traduction.spanish  + '<div class="text">B2</div>';
-  document.querySelector('#portuguese').innerHTML = '<img class="flag" src="./images/Portugal.png"/>' + traduction.portuguese  + '<div class="text">B1</div>';
+  document.querySelector('#french').innerHTML = `<img class="flag" src="./images/France.png"/>${traduction.french}<div class="text">${traduction.mother_tongue}</div>`;
+  document.querySelector('#english').innerHTML = `<img class="flag" src="./images/UK.png"/>${traduction.english}<div class="text">C1 (TOEIC 2021: 860/1000 + Language School Certification)</div>`;
+  document.querySelector('#spanish').innerHTML = `<img class="flag" src="./images/Spain.png"/>${traduction.spanish}<div class="text">B2</div>`;
+  document.querySelector('#portuguese').innerHTML = `<img class="flag" src="./images/Portugal.png"/>${traduction.portuguese}<div class="text">B1</div>`;
   document.querySelector('#contact-me-text').textContent = traduction.contact_me_text;
   document.querySelector('#name').placeholder = traduction.name;
   document.querySelector('#message').placeholder = traduction.message;
