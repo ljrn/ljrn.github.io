@@ -71,7 +71,7 @@ const hideScrollElement = (element) => {
 //Start or hide animation if element is or is not in view
 const handleScrollAnimation = () => {
   scrollElements.forEach((el) => {
-    if (elementInView(el, 1.25)) {
+    if (elementInView(el, 1)) {
       displayScrollElement(el);
     } else if (elementOutofView(el)) {
       el.classList.add('not-visible')
