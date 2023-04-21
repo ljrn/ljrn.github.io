@@ -206,7 +206,7 @@ const changeLanguage = (language) => {
   document.querySelector('#spanish').innerHTML = `<img class="flag" src="./images/Spain.png"/>${traduction.spanish}<div class="text">B2</div>`;
   document.querySelector('#portuguese').innerHTML = `<img class="flag" src="./images/Portugal.png"/>${traduction.portuguese}<div class="text">B1</div>`;
   document.querySelector('#contact-me-text').textContent = traduction.contact_me_text;
-  document.querySelector('#name').placeholder = traduction.name;
+  document.querySelector('#from_name').placeholder = traduction.name;
   document.querySelector('#message').placeholder = traduction.message;
   document.querySelector('#send-btn').textContent = traduction.send_btn;
   setTimeout(() => {
@@ -243,8 +243,8 @@ window.onload = function () {
         email_status.style.display = 'block';
         setTimeout(function () {
           email_status.style.display = 'none';
-          document.getElementById("name").value = ''
-          document.getElementById("email").value = ''
+          document.getElementById("from_name").value = ''
+          document.getElementById("email_id").value = ''
           document.getElementById("message").value = ''
         }, 4000);
       }, function (error) {
