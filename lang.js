@@ -243,6 +243,9 @@ window.onload = function () {
         email_status.style.display = 'block';
         setTimeout(function () {
           email_status.style.display = 'none';
+          document.getElementById("name").value = ''
+          document.getElementById("email").value = ''
+          document.getElementById("message").value = ''
         }, 4000);
       }, function (error) {
         email_status.classList.remove('alert-success');
