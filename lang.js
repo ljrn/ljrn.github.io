@@ -32,6 +32,10 @@ const trad = {
     "english": "Anglais",
     "spanish": "Espagnol",
     "portuguese": "Portugais",
+    "football": "Football",
+    "gastronomy": "Gastronomie",
+    "hardware": "Hardware",
+    "travel": "Voyages",
     "contact_me_text": "Me contacter",
     "name": "nom",
     "message": "votre message",
@@ -69,6 +73,10 @@ const trad = {
     "english": "English",
     "spanish": "Spanish",
     "portuguese": "Portuguese",
+    "football": "Football",
+    "gastronomy": "Gastronomy",
+    "hardware": "Hardware",
+    "travel": "Trips",
     "contact_me_text": "Contact me",
     "name": "name",
     "message": "your message",
@@ -106,6 +114,10 @@ const trad = {
     "english": "Inglés",
     "spanish": "Español",
     "portuguese": "Portugués",
+    "football": "Fútbol",
+    "gastronomy": "Gastronomía",
+    "hardware": "Hardware",
+    "travel": "Viajes",
     "contact_me_text": "Contactarme",
     "name": "nombre",
     "message": "su mensaje",
@@ -143,6 +155,10 @@ const trad = {
     "english": "Inglês",
     "spanish": "Espanhol",
     "portuguese": "Português",
+    "football": "Futebol",
+    "gastronomy": "Gastronomia",
+    "hardware": "Hardware",
+    "travel": "Viagens",
     "contact_me_text": "Contactar-me",
     "name": "nome",
     "message": "sua mensagem",
@@ -205,6 +221,10 @@ const changeLanguage = (language) => {
   document.querySelector('#english').innerHTML = `<img class="flag" src="./images/UK.png"/>${traduction.english}<div class="text">C1 (TOEIC 2023: 940/1000 + Language School Certification)</div>`;
   document.querySelector('#spanish').innerHTML = `<img class="flag" src="./images/Spain.png"/>${traduction.spanish}<div class="text">B2</div>`;
   document.querySelector('#portuguese').innerHTML = `<img class="flag" src="./images/Portugal.png"/>${traduction.portuguese}<div class="text">B1</div>`;
+  document.querySelector('#football').innerHTML = `<i class="fas fa-futbol"></i> ${traduction.football}`;
+  document.querySelector('#gastronomy').innerHTML = `<i class="fas fa-utensils"></i> ${traduction.gastronomy}`;
+  document.querySelector('#hardware').innerHTML = `<i class="fas fa-microchip"></i> ${traduction.hardware}`;
+  document.querySelector('#travel').innerHTML = `<i class="fas fa-mountain"></i> ${traduction.travel}`;
   document.querySelector('#contact-me-text').textContent = traduction.contact_me_text;
   document.querySelector('#from_name').placeholder = traduction.name;
   document.querySelector('#message').placeholder = traduction.message;
