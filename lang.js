@@ -24,7 +24,7 @@ const trad = {
     "M3d": "Logiciel de modélisation 3D",
     "M3d_text": "Ce logiciel a été créé pour transformer les modèles . ply en modèles 3D en utilisant JavaFX et le design pattern MVC. Il a été développé en collaboration avec trois collègues nommés Baptiste Momut, Mohamed Bourdim et Mohnes Hamroun. La visualisation est faite en JavaFX et s'appuie sur des transformations mathématiques permettant de manipuler le nuage de points.",
     "about_me_text": "À propos de moi",
-    "about_text": "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant qu’Ingénieur Logiciel. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Institut Universitaire de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
+    "about_text": "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant qu’Ingénieur Logiciel et Data Scientist. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Institut Universitaire de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
     "skills": "Mes compétences",
     "lang": "Langues",
     "french": "Français",
@@ -65,7 +65,7 @@ const trad = {
     "M3d": "3D Modeling Software",
     "M3d_text": "This software has been created to transform .ply models into 3D models using JavaFX and MVC pattern. It has been developped in collaboration with three collegues named Baptiste Momut, Mohamed Bourdim and Mohnes Hamroun. The visualization is made with JavaFX and relies on mathematical transformations to manipulate the point cloud.",
     "about_me_text": "About me",
-    "about_text": "Currently studying Software Engineering and Data Science at the Polytechnic University For Sciences and Technologies of Lille (Polytech), I am also apprentice at the \"Département du Nord\" as a Software Engineer and Data Analyst. Before Polytech, I studied software development for 2 years at the University Institute of Technology of Lille. These 2 years have allowed me to discover software development and get my first diploma in this field.",
+    "about_text": "Currently studying Software Engineering and Data Science at the Polytechnic University For Sciences and Technologies of Lille (Polytech), I am also apprentice at the \"Département du Nord\" as a Software Engineer and Data Scientist. Before Polytech, I studied software development for 2 years at the University Institute of Technology of Lille. These 2 years have allowed me to discover software development and get my first diploma in this field.",
     "skills": "My skills",
     "lang": "Languages",
     "french": "French",
@@ -106,7 +106,7 @@ const trad = {
     "M3d": "3D Modeling Software",
     "M3d_text": "Este software ha sido creado para transformar modelos . ply en modelos 3D utilizando JavaFX y MVC patrón. Ha sido desarrollado en colaboración con tres colegas llamados Baptiste Momut, Mohamed Bourdim y Mohnes Hamroun. La visualización se realiza con JavaFX y se basa en transformaciones matemáticas para manipular la nube de puntos.",
     "about_me_text": "Sobre mí",
-    "about_text": "Actualmente estudiando Software Engineering y Data Science en la Escuela Politécnica de la Universidad de Lille (Polytech), También soy aprendiz en el \"Département du Nord\" como Software Engineer y Data Analyst. Antes de Polytech, estudié Software Development durante 2 años en el Instituto Universitario de Tecnología de Lille. Estos 2 años me han permitido descubrir el software development y obtener mi primer diploma en este campo.",
+    "about_text": "Actualmente estudiando Software Engineering y Data Science en la Escuela Politécnica de la Universidad de Lille (Polytech), También soy aprendiz en el \"Département du Nord\" como Software Engineer y Data Scientist. Antes de Polytech, estudié Software Development durante 2 años en el Instituto Universitario de Tecnología de Lille. Estos 2 años me han permitido descubrir el software development y obtener mi primer diploma en este campo.",
     "skills": "Mis competencias",
     "lang": "Idiomas",
     "french": "Francés",
@@ -147,7 +147,7 @@ const trad = {
     "M3d": "3D Modeling Software",
     "M3d_text": "Este software foi criado para transformar modelos .ply em modelos 3D usando JavaFX e MVC padrão. Foi desenvolvido em colaboração com três colegas chamados Baptiste Momut, Mohamed Bourdim e Mohnes Hamroun. A visualização é feita com JavaFX e é baseada em transformações matemáticas para manipular a nuvem de pontos.",
     "about_me_text": "Sobre mim",
-    "about_text": "Atualmente estudando Software Engineering e Data Science na Escola Politécnica da Universidade de Lille (Polytech), também sou aprendiz no \"Département du Nord \" como Software Engineer e Data Analyst. Antes da Polytech, estudei Software Development durante 2 anos no Instituto Universitário de Tecnologia de Lille. Estes 2 anos me permitiram descobrir o software development e obter meu primeiro diploma neste campo.",
+    "about_text": "Atualmente estudando Software Engineering e Data Science na Escola Politécnica da Universidade de Lille (Polytech), também sou aprendiz no \"Département du Nord \" como Software Engineer e Data Scientist. Antes da Polytech, estudei Software Development durante 2 anos no Instituto Universitário de Tecnologia de Lille. Estes 2 anos me permitiram descobrir o software development e obter meu primeiro diploma neste campo.",
     "skills": "Minhas competências",
     "lang": "Idiomas",
     "french": "Francês",
@@ -241,7 +241,7 @@ changeLanguage('EN');
 //Writing effect
 var speed = 50;
 var i = 0;
-var txt = 'Software Engineer / Data Analyst';
+var txt = 'Software Engineer / Data Scientist';
 function typeWriter(container) {
   if (i < txt.length) {
     document.getElementById(container).innerHTML += txt.charAt(i);
