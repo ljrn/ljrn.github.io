@@ -238,7 +238,7 @@ window.onload = function () {
     this.contact_number.value = Math.random() * 100000 | 0;
     // these IDs from the previous steps
     let email_status = document.getElementById('email-status');
-    emailjs.sendForm('service_yq9xr15', 'template_qucmz4e', this)
+    emailjs.sendForm('default_service', 'template_qucmz4e', this)
       .then(function () {
         email_status.style.display = 'block';
         setTimeout(function () {
