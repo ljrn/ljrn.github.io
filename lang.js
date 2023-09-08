@@ -32,6 +32,7 @@ const trad = {
     "english": "Anglais",
     "spanish": "Espagnol",
     "portuguese": "Portugais",
+    "personal": "Personnel",
     "football": "Football",
     "gastronomy": "Gastronomie",
     "hardware": "Hardware",
@@ -73,6 +74,7 @@ const trad = {
     "english": "English",
     "spanish": "Spanish",
     "portuguese": "Portuguese",
+    "personal": "Personal",
     "football": "Football",
     "gastronomy": "Gastronomy",
     "hardware": "Hardware",
@@ -114,6 +116,7 @@ const trad = {
     "english": "Inglés",
     "spanish": "Español",
     "portuguese": "Portugués",
+    "personal": "Personal",
     "football": "Fútbol",
     "gastronomy": "Gastronomía",
     "hardware": "Hardware",
@@ -155,6 +158,7 @@ const trad = {
     "english": "Inglês",
     "spanish": "Espanhol",
     "portuguese": "Português",
+    "personal": "Personal",
     "football": "Futebol",
     "gastronomy": "Gastronomia",
     "hardware": "Hardware",
@@ -221,6 +225,7 @@ const changeLanguage = (language) => {
   document.querySelector('#english').innerHTML = `<img class="flag" src="./images/UK.png"/>${traduction.english}<div class="text">C1 (TOEIC 2023: 940/1000 + Language School Certification)</div>`;
   document.querySelector('#spanish').innerHTML = `<img class="flag" src="./images/Spain.png"/>${traduction.spanish}<div class="text">B2</div>`;
   document.querySelector('#portuguese').innerHTML = `<img class="flag" src="./images/Portugal.png"/>${traduction.portuguese}<div class="text">B1</div>`;
+  document.querySelector('#personal').textContent = traduction.personal;
   document.querySelector('#football').innerHTML = `<i class="fas fa-futbol"></i> ${traduction.football}`;
   document.querySelector('#gastronomy').innerHTML = `<i class="fas fa-utensils"></i> ${traduction.gastronomy}`;
   document.querySelector('#hardware').innerHTML = `<i class="fas fa-microchip"></i> ${traduction.hardware}`;
