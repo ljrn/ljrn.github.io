@@ -281,7 +281,16 @@ const changeLanguage = (language) => {
   }, 2000);
 }
 
-changeLanguage('EN');
+const userLang = navigator.language || navigator.userLanguage;
+if(userLang.substring(0,2) == "fr"){
+  changeLanguage('FR');
+}else if(userLang.substring(0,2)=="es"){
+  changeLanguage('ES');
+}else if(userLang.substring(0,2) == "pt"){
+  changeLanguage('PT');
+}else{
+  changeLanguage('EN');
+}
 
 //Writing effect
 var speed = 50;
