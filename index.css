@@ -651,5 +651,10 @@ h2.not-visible.scrolled.slide {
 }
 
 .logo-work{
-    width: 20%;
+    width: 20vh;
+    height: 10vh;
+}
+
+#antenia-logo{
+    height: 7vh;
 }
