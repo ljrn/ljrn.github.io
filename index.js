@@ -13,7 +13,7 @@ function openOrCloseOtherPage(otherPage, slide, close) {
       }
     }
   }, 800);
-  if (otherPage == '#about_container') {
+  if (otherPage === '#about_container') {
     document.querySelectorAll('.pin').forEach((el) => {
       el.classList.add('animated');
       el.classList.add('slideInDown');

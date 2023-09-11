@@ -212,11 +212,11 @@ const changeLanguage = (language) => {
   selectedLanguage.classList.remove('selected');
   selectedLanguage = document.getElementById(language);
   document.getElementById(language).classList.add('selected');
-  if (language == 'FR') {
+  if (language === 'FR') {
     traduction = trad.french;
-  } else if (language == 'ES') {
+  } else if (language === 'ES') {
     traduction = trad.spanish;
-  } else if (language == 'PT') {
+  } else if (language === 'PT') {
     traduction = trad.portuguese;
   } else {
     traduction = trad.english;
@@ -282,11 +282,11 @@ const changeLanguage = (language) => {
 }
 
 const userLang = navigator.language || navigator.userLanguage;
-if(userLang.substring(0,2) == "fr"){
+if(userLang.substring(0,2) === "fr"){
   changeLanguage('FR');
-}else if(userLang.substring(0,2)=="es"){
+}else if(userLang.substring(0,2)==="es"){
   changeLanguage('ES');
-}else if(userLang.substring(0,2) == "pt"){
+}else if(userLang.substring(0,2) === "pt"){
   changeLanguage('PT');
 }else{
   changeLanguage('EN');
