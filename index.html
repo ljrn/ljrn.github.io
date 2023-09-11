@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" 
-    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
@@ -81,7 +81,25 @@
             <div class="col-1" onclick="openOrCloseOtherPage('#work_container','animated slideOutRight',true)"><i
                     class="fas fa-angle-right close-window liens"></i></div>
         </div>
-        <h2 style="margin: 0; " class="scroll-element js-scroll slide"><b><a class="liens"
+        <h2 style="margin: 0; " class="scroll-element js-scroll slide"><b id="infineed"></b></h2>
+        <div class="row" style="margin: 0;">
+            <div style="background: linear-gradient(red, blue); width : 2px; padding-left: 0%; padding-right: 0%; "
+                class="col-2 scroll-element js-scroll slide"></div>
+            <div class="col-10 scroll-element js-scroll slide">
+                <section class="item">
+                    <p id="infineed-text">
+                    </p>
+                    <div id="used">
+                        <div><i class="fas fa-cloud"></i> Cloud Computing</div>
+                        <div><i class="fab fa-java"></i>Spring Boot</div>
+                        <div><i class="fab fa-react"></i> React</div>
+                        <div><i class="fab fa-html5"></i> HTML</div>
+                        <div><i class="fab fa-css3-alt"></i> CSS</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <h2 style="margin: 0; " class="scroll-element js-scroll slide"><b id="portfolio"><a class="liens"
                     href="https://github.com/ljrn/ljrn.github.io" target="_blank" id="portfolio"></a></b></h2>
         <div class="row" style="margin: 0;">
             <div style="background: linear-gradient(red, blue); width : 2px; padding-left: 0%; padding-right: 0%; "
@@ -338,6 +356,45 @@
                     <i class="fas fa-handshake"></i>
                     Project Management
                     <div class="text">Agile</div>
+                </div>
+            </div>
+            <h2 id="employment_education_title">Employment and Education</h2>
+            <div class="employment-education">
+                <div class="employment">
+                    <h3 id="employment_text">Employment</h3>
+                    <div id="lenord" class="employment-pin">
+                        <div class="employment-logo"><img class="logo-work" src="./images/lenord.svg" /></div>
+                        <div class="employment-place">Département du Nord</div>
+                        <div id="nord_date" class="employment-date">2021 - Present</div>
+                        <div class="employment-job">Software Engineer / Data Scientist</div>
+                    </div>
+                    <div id="unine" class="employment-pin">
+                        <div class="employment-logo"><img class="logo-work" src="./images/unine.png" /></div>
+                        <div id ="unine_text" class="employment-place">University of Neuchâtel (Switzerland)</div>
+                        <div class="employment-date">2023</div>
+                        <div class="employment-job">Software Engineer</div>
+                    </div>
+                    <div id="antenia" class="employment-pin">
+                        <div class="employment-logo"><img class="logo-work" src="./images/antenia.jpg" /></div>
+                        <div class="employment-place">Antenia</div>
+                        <div class="employment-date">2021</div>
+                        <div class="employment-job">Fullstack Developer</div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3 id="education_text">Education</h3>
+                    <div id="polytech" class="employment-pin">
+                        <div class="employment-logo"><img class="logo-work" src="./images/polytech.svg" /></div>
+                        <div class="employment-place">Polytech Lille</div>
+                        <div id="polytech_date" class="employment-date">2021 - Present</div>
+                        <div class="employment-job">Software / Data Engineering </div>
+                    </div>
+                    <div id="iut" class="employment-pin">
+                        <div class="employment-logo"><img class="logo-work" src="./images/iut.png" /></div>
+                        <div class="employment-place">IUT A Lille</div>
+                        <div class="employment-date">2019 - 2021</div>
+                        <div class="employment-job">Software Development</div>
+                    </div>
                 </div>
             </div>
             <h2 id="lang">Languages</h2>

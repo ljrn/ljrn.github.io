@@ -11,6 +11,8 @@ const trad = {
     "graph_modeling_text": "Cette application a été créée pour générer un graphe depuis un modèle pour résoudre des problèmes de transports. Elle permet d'optimiser la répartition de certaines charges de transport via les algorithmes de résolution de graphes.",
     "forecast": "Logiciel de calculs prévisionnels",
     "forecast_text": "Ce logiciel a été réalisé, en collaboration avec un ingénieur du bâtiment, pour faciliter les décisions en matière de travaux sur les structures d’ingénierie. Il calcule l’état des structures d’ingénierie sur une période donnée et donne les coûts potentiels des réparations.",
+    "infineed" : "Infineed",
+    "infineed_text" : "Cette application web a été créée lors de mon passage à l'Université de Neuchâtel. Elle a pour but de réduire la consommation énergétique des utilisateurs en les faisant discuter avec un Chatbot d'assitance. Nous avons paramétré l'API ChatGPT pour réaliser cette tâche.",
     "stat_pavement": "Analyse statistique de la notation des chaussées",
     "stat_pavement_text": "Cette analyse a été faite pour aider la direction à prendre des décisions sur les travaux à effectuer. Celle-ci implique la mise en place d'un modèle statistique et la manipulation d'une grande base de données.",
     "secure_novanet": "Sécurisation d'une application Web contre les vulnérabilités XSS",
@@ -26,6 +28,12 @@ const trad = {
     "about_me_text": "À propos de moi",
     "about_text": "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant qu’Ingénieur Logiciel et Data Scientist. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Institut Universitaire de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
     "skills": "Mes compétences",
+    "employment_education_title": "Emploi et Education",
+    "employment_text": "Emploi",
+    "education_text": "Education",
+    "nord_date" : "2021 - Présent",
+    "unine_text" : "Université de Neuchâtel (Suisse)",
+    "polytech_date": "2021 - Présent",
     "lang": "Langues",
     "french": "Français",
     "mother_tongue":"Langue maternelle",
@@ -47,6 +55,8 @@ const trad = {
     "work": "My work",
     "contact": "Contact me",
     "my_works": "My main work",
+    "infineed" : "Infineed",
+    "infineed_text": "This app was created during my time at the University of Neuchâtel. It aims to reduce the energy consumption of users by making them discuss with a Chatbot. We have set up the ChatGPT API to perform this task.",
     "portfolio": "Portfolio",
     "portfolio_text": "This portfolio was created to summarize my resume and present more precisely my projects. This allows you to view my skills and access the GIT repositories of my projects. You can send me an email via the \"Contact me\" page.",
     "graph_modeling": "Graph Modeling Application",
@@ -68,6 +78,12 @@ const trad = {
     "about_me_text": "About me",
     "about_text": "Currently studying Software Engineering and Data Science at the Polytechnic University For Sciences and Technologies of Lille (Polytech), I am also apprentice at the \"Département du Nord\" as a Software Engineer and Data Scientist. Before Polytech, I studied software development for 2 years at the University Institute of Technology of Lille. These 2 years have allowed me to discover software development and get my first diploma in this field.",
     "skills": "My skills",
+    "employment_education_title": "Employment and Education",
+    "employment_text": "Employment",
+    "education_text": "Education",
+    "nord_date" : "2021 - Present",
+    "unine_text" : "University of Neuchâtel (Switzerland)",
+    "polytech_date": "2021 - Present",
     "lang": "Languages",
     "french": "French",
     "mother_tongue":"Mother tongue",
@@ -89,6 +105,8 @@ const trad = {
     "work": "Mis trabajos",
     "contact": "Contactarme",
     "my_works": "Mis trabajos principales",
+    "infineed" : "Infineed",
+    "infineed_text" : "Esta aplicación web fue creada durante mi paso por la Universidad de Neuchâtel. Su objetivo es reducir el consumo de energía de los usuarios haciéndolos hablar con un Chatbot de asistencia. Hemos configurado la API ChatGPT para realizar esta tarea.",
     "portfolio": "Cartera",
     "portfolio_text": "Esta cartera fue creada para resumir mi currículum y presentar más precisamente mis proyectos. Esto le permite ver mis habilidades y acceder a los repositorios de GIT de mis proyectos. Puede enviarme un correo electrónico a través de la página \"Contactarme\".",
     "graph_modeling": "Aplicación de modelado de gráfos",
@@ -110,6 +128,12 @@ const trad = {
     "about_me_text": "Sobre mí",
     "about_text": "Actualmente estudiando Software Engineering y Data Science en la Escuela Politécnica de la Universidad de Lille (Polytech), También soy aprendiz en el \"Département du Nord\" como Software Engineer y Data Scientist. Antes de Polytech, estudié Software Development durante 2 años en el Instituto Universitario de Tecnología de Lille. Estos 2 años me han permitido descubrir el software development y obtener mi primer diploma en este campo.",
     "skills": "Mis competencias",
+    "employment_education_title": "Empleo y Educación",
+    "employment_text": "Empleo",
+    "education_text": "Educación",
+    "nord_date" : "2021 - Presente",
+    "unine_text" : "Universidad de Neuchâtel (Suiza)",
+    "polytech_date": "2021 - Presente",
     "lang": "Idiomas",
     "french": "Francés",
     "mother_tongue":"Idioma materno",
@@ -131,6 +155,8 @@ const trad = {
     "work": "Meus trabalhos",
     "contact": "Contactar-me",
     "my_works": "Meus trabalhos principais",
+    "infineed" : "Infineed",
+    "infineed_text" : "Este aplicativo da web foi criado durante minha passagem pela Universidade de Neuchâtel. Seu objetivo é reduzir o consumo de energia dos usuários fazendo-os conversar com um Chatbot de assistência. Configuramos a API ChatGPT para realizar essa tarefa.",
     "portfolio": "Carteira",
     "portfolio_text": "Esta carteira foi criada para resumir meu currículo e apresentar mais precisamente meus projetos. Isso permite que você veja minhas habilidades e acesse os repositórios GIT dos meus projetos. Pode enviar-me um e-mail através da página \"Contactar-me\".",
     "graph_modeling": "Aplicação de modelagem de gráfos",
@@ -152,6 +178,12 @@ const trad = {
     "about_me_text": "Sobre mim",
     "about_text": "Atualmente estudando Software Engineering e Data Science na Escola Politécnica da Universidade de Lille (Polytech), também sou aprendiz no \"Département du Nord \" como Software Engineer e Data Scientist. Antes da Polytech, estudei Software Development durante 2 anos no Instituto Universitário de Tecnologia de Lille. Estes 2 anos me permitiram descobrir o software development e obter meu primeiro diploma neste campo.",
     "skills": "Minhas competências",
+    "employment_education_title": "Emprego e Educação",
+    "employment_text": "Emprego",
+    "education_text": "Educação",
+    "nord_date" : "2021 - Presente",
+    "unine_text" : "Universidade de Neuchâtel (Suíça)",
+    "polytech_date": "2021 - Presente",
     "lang": "Idiomas",
     "french": "Francês",
     "mother_tongue":"Língua materna",
@@ -200,6 +232,8 @@ const changeLanguage = (language) => {
   document.querySelector('#m-work').textContent = traduction.work;
   document.querySelector('#m-contact').textContent = traduction.contact;
   document.querySelector('#my-works').textContent = traduction.my_works;
+  document.querySelector('#infineed').textContent = traduction.infineed;
+  document.querySelector('#infineed-text').textContent = traduction.infineed_text;
   document.querySelector('#portfolio').textContent = traduction.portfolio;
   document.querySelector('#portfolio-text').textContent = traduction.portfolio_text;
   document.querySelector('#graph-modeling').textContent = traduction.graph_modeling;
@@ -220,6 +254,12 @@ const changeLanguage = (language) => {
   document.querySelector('#M3d-text').textContent = traduction.M3d_text;
   document.querySelector('#about-me-text').textContent = traduction.about_me_text;
   document.querySelector('#skills').textContent = traduction.skills;
+  document.querySelector('#employment_education_title').textContent = traduction.employment_education_title;
+  document.querySelector('#employment_text').textContent = traduction.employment_text;
+  document.querySelector('#education_text').textContent = traduction.education_text;
+  document.querySelector('#nord_date').textContent = traduction.nord_date;
+  document.querySelector('#unine_text').textContent = traduction.unine_text;
+  document.querySelector('#polytech_date').textContent = traduction.polytech_date;
   document.querySelector('#lang').textContent = traduction.lang;
   document.querySelector('#french').innerHTML = `<img class="flag" src="./images/France.png"/>${traduction.french}<div class="text">${traduction.mother_tongue}</div>`;
   document.querySelector('#english').innerHTML = `<img class="flag" src="./images/UK.png"/>${traduction.english}<div class="text">C1 (TOEIC 2023: 940/1000 + Language School Certification)</div>`;
