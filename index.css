@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open Sans');
+@import url('https://fonts.googleapis.com/css?family=rubik');
 
 body {
     padding: 0px;
@@ -8,7 +8,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    font-family: 'Open Sans';
+    font-family: 'rubik';
     cursor: url('custom-cursor.png'), auto !important;
 }
 
@@ -271,6 +271,10 @@ a:hover {
 
 h2.not-visible.scrolled.slide {
     animation: slide-in-right 1s ease-in-out both;
+}
+
+h2 > #liens{
+    font-weight: 900;
 }
 
 /*Sliding animations*/

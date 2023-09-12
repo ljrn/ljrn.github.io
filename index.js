@@ -19,6 +19,11 @@ function openOrCloseOtherPage(otherPage, slide, close) {
       el.classList.add('slideInDown');
       el.style.animationDelay = '0.2s';
     })
+    document.querySelectorAll('.employment-pin').forEach((el) => {
+      el.classList.add('animated');
+      el.classList.add('slideInDown');
+      el.style.animationDelay = '0.2s';
+    })
   }
 }
 
