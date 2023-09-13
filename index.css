@@ -36,6 +36,25 @@ a:hover {
     color: red;
 }
 
+h2 > a{
+color: #000;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    	to right,
+	    red,
+	    red 50%,
+	    #000 50%);
+	    background-size: 200% 100%;
+	    background-position: 100%;
+}
+
+h2 > a:hover{
+    transition: all 0.5s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+}
+
 /*Size of the large cursor*/
 .cursor.large {
     height: 70px;
