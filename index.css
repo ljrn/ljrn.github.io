@@ -281,15 +281,15 @@ h2 > a:hover{
 }
 
 .col-2.not-visible.scrolled.slide {
-    animation: slide-in-down 1s ease-in-out both;
+    animation: slide-in-down 0.8s ease-in-out both;
 }
 
 .col-10.not-visible.scrolled.slide {
-    animation: slide-in-right 1s ease-in-out both;
+    animation: slide-in-right 0.8s ease-in-out both;
 }
 
 h2.not-visible.scrolled.slide {
-    animation: slide-in-right 1s ease-in-out both;
+    animation: slide-in-right 0.5s ease-in-out both;
 }
 
 h2 > #liens{
