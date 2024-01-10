@@ -295,7 +295,7 @@ if(userLang.substring(0,2) === "fr"){
 //Writing effect
 var speed = 50;
 var i = 0;
-var txt = 'Software Engineer / Data Scientist';
+var txt = 'Machine Learning and Software Engineer';
 function typeWriter(container) {
   if (i < txt.length) {
     document.getElementById(container).innerHTML += txt.charAt(i);
