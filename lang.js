@@ -5,6 +5,8 @@ const trad = {
     "work": "Mes travaux",
     "contact": "Me contacter",
     "my_works": "Mes principaux travaux",
+    "signs": "Reconnaissance automatique de panneaux de signalisation routière",
+    "signs_text": "Ce modèle de Computer Vision (YOLOv8) a été entraîné dans le cadre du projet de relevé de patrimoine du Département du Nord. Il a pour but de reconnaître les panneaux de signalisation routière et de les classer dans différentes catégories afin de renseigner la base de données du SIG.",
     "portfolio": "Portfolio",
     "portfolio_text": "Ce portfolio a été créé pour résumer mon CV et présenter plus précisément mes projets. Celui-ci permet de visualiser mes compétences et d'accéder aux dépôts GIT de mes projets. Vous pouvez m'envoyer un mail via l'onglet \"Me contacter\".",
     "graph_modeling": "Application de modélisation de graphes",
@@ -55,6 +57,8 @@ const trad = {
     "work": "My work",
     "contact": "Contact me",
     "my_works": "My main work",
+    "signs": "Traffic Signs Recognition with Computer Vision",
+    "signs_text": "This Computer Vision model (YOLOv8) was trained as part of the heritage survey project of the \"Département du Nord\". Its purpose is to recognize road signs and classify them into different categories to update the GIS database.",
     "infineed" : "Infineed",
     "infineed_text": "This app was created during my time at the University of Neuchâtel. It aims to reduce the energy consumption of users by making them discuss with a Chatbot. We have set up the ChatGPT API to perform this task.",
     "portfolio": "Portfolio",
@@ -105,6 +109,8 @@ const trad = {
     "work": "Mis trabajos",
     "contact": "Contactarme",
     "my_works": "Mis trabajos principales",
+    "signs": "Reconocimiento Automático de Señales de Tráfico",
+    "signs_text": "Este modelo de Computer Vision (YOLOv8) fue entrenado como parte del proyecto de relevamiento patrimonial del \"Département du Nord\". Su propósito es reconocer señales de tráfico y clasificarlas en diferentes categorías para actualizar la base de datos del SIG.",
     "infineed" : "Infineed",
     "infineed_text" : "Esta aplicación web fue creada durante mi paso por la Universidad de Neuchâtel. Su objetivo es reducir el consumo de energía de los usuarios haciéndolos hablar con un Chatbot de asistencia. Hemos configurado la API ChatGPT para realizar esta tarea.",
     "portfolio": "Cartera",
@@ -155,6 +161,8 @@ const trad = {
     "work": "Meus trabalhos",
     "contact": "Contactar-me",
     "my_works": "Meus trabalhos principais",
+    "signs": "Reconhecimento Automático de Sinais de Trânsito",
+    "signs_text": "Este modelo de Computer Vision (YOLOv8) foi treinado como parte do projeto de levantamento do patrimônio do \"Département du Nord\". Seu objetivo é reconhecer sinais de trânsito e classificá-los em diferentes categorias para atualizar o banco de dados do GIS.",
     "infineed" : "Infineed",
     "infineed_text" : "Este aplicativo da web foi criado durante minha passagem pela Universidade de Neuchâtel. Seu objetivo é reduzir o consumo de energia dos usuários fazendo-os conversar com um Chatbot de assistência. Configuramos a API ChatGPT para realizar essa tarefa.",
     "portfolio": "Carteira",
@@ -232,6 +240,8 @@ const changeLanguage = (language) => {
   document.querySelector('#m-work').textContent = traduction.work;
   document.querySelector('#m-contact').textContent = traduction.contact;
   document.querySelector('#my-works').textContent = traduction.my_works;
+  document.querySelector('#signs').innerHTML = traduction.signs + '  <i class="fas fa-lock"></i>';
+  document.querySelector('#signs-text').textContent = traduction.signs_text;
   document.querySelector('#infineed').innerHTML = traduction.infineed + '  <i class="fas fa-lock"></i>';
   document.querySelector('#infineed-text').textContent = traduction.infineed_text;
   document.querySelector('#portfolio').textContent = traduction.portfolio;
