@@ -5,6 +5,10 @@ const trad = {
     "work": "Mes travaux",
     "contact": "Me contacter",
     "my_works": "Mes principaux travaux",
+    "inforoutes": "Inforoutes",
+    "inforoutes_text": "Cette application a été créée pour permettre aux Nordistes et aux agents du Département du Nord de visualiser les interventions en cours et à venir sur le réseau routier départemental et de consulter les détails des chaussées.",
+    "carottages": "Classification automatique de carottages routiers",
+    "carottages_text": "Ce modèle de Machine Learning (XGBoost) a été entraîné afin de mieux connaître les routes du Département du Nord. Il a pour but de reconnaître les carottages routiers et de les classer dans différentes catégories afin d'établir des structures de routes homogènes.",
     "signs": "Reconnaissance automatique de panneaux de signalisation routière",
     "signs_text": "Ce modèle de Computer Vision (YOLOv8) a été entraîné dans le cadre du projet de relevé de patrimoine du Département du Nord. Il a pour but de reconnaître les panneaux de signalisation routière et de les classer dans différentes catégories afin de renseigner la base de données du SIG.",
     "portfolio": "Portfolio",
@@ -57,6 +61,10 @@ const trad = {
     "work": "My work",
     "contact": "Contact me",
     "my_works": "My main work",
+    "inforoutes": "Inforoutes",
+    "inforoutes_text": "This application was created to allow Northeners and agents of the \"Département du Nord\" to visualize the interventions in progress and to come on the departmental road network and to consult the details of the roadways.",
+    "carottages": "Automatic classification of road corings",
+    "carottages_text": "This Machine Learning model (XGBoost) was trained to have a better knowledge about the roads of the \"Département du Nord\". Its purpose is to recognize road corings and classify it into different categories to establish homogeneous road structures.",
     "signs": "Traffic Signs Recognition with Computer Vision",
     "signs_text": "This Computer Vision model (YOLOv8) was trained as part of the heritage survey project of the \"Département du Nord\". Its purpose is to recognize road signs and classify them into different categories to update the GIS database.",
     "infineed" : "Infineed",
@@ -109,6 +117,10 @@ const trad = {
     "work": "Mis trabajos",
     "contact": "Contactarme",
     "my_works": "Mis trabajos principales",
+    "inforoutes": "Inforoutes",
+    "inforoutes_text": "Esta aplicación fue creada para permitir a los habitantes del Norte y a los agentes del \"Département du Nord\" visualizar las intervenciones en curso y por venir en la red de carreteras departamentales y consultar los detalles de las calzadas.",
+    "carottages": "Clasificación automática de perforación de carreteras",
+    "carottages_text": "Este modelo de Machine Learning (XGBoost) fue entrenado para tener un mejor conocimiento sobre las carreteras del \"Département du Nord\". Su propósito es reconocer las perforaciones de carreteras y clasificarlas en diferentes categorías para establecer estructuras de carreteras homogéneas.",
     "signs": "Reconocimiento Automático de Señales de Tráfico",
     "signs_text": "Este modelo de Computer Vision (YOLOv8) fue entrenado como parte del proyecto de relevamiento patrimonial del \"Département du Nord\". Su propósito es reconocer señales de tráfico y clasificarlas en diferentes categorías para actualizar la base de datos del SIG.",
     "infineed" : "Infineed",
@@ -161,6 +173,10 @@ const trad = {
     "work": "Meus trabalhos",
     "contact": "Contactar-me",
     "my_works": "Meus trabalhos principais",
+    "inforoutes": "Inforoutes",
+    "inforoutes_text": "Esta aplicação foi criada para permitir aos habitantes do Norte e aos agentes do \"Département du Nord\" visualizar as intervenções em curso e a vir na rede rodoviária departamental e consultar os detalhes das vias.",
+    "carottages": "Classificação automática de perfurações rodoviárias",
+    "carottages_text": "Este modelo de Machine Learning (XGBoost) foi treinado para ter um melhor conhecimento sobre as estradas do \"Département du Nord\". Seu objetivo é reconhecer as perfurações rodoviárias e classificá-las em diferentes categorias para estabelecer estruturas rodoviárias homogêneas.",
     "signs": "Reconhecimento Automático de Sinais de Trânsito",
     "signs_text": "Este modelo de Computer Vision (YOLOv8) foi treinado como parte do projeto de levantamento do patrimônio do \"Département du Nord\". Seu objetivo é reconhecer sinais de trânsito e classificá-los em diferentes categorias para atualizar o banco de dados do GIS.",
     "infineed" : "Infineed",
@@ -240,9 +256,13 @@ const changeLanguage = (language) => {
   document.querySelector('#m-work').textContent = traduction.work;
   document.querySelector('#m-contact').textContent = traduction.contact;
   document.querySelector('#my-works').textContent = traduction.my_works;
+  document.querySelector('#inforoutes').innerHTML = traduction.inforoutes;
+  document.querySelector('#inforoutes-text').textContent = traduction.inforoutes_text;
+  document.querySelector('#carottages').innerHTML = traduction.carottages + '  <i class="fas fa-lock"></i>';
+  document.querySelector('#carottages-text').textContent = traduction.carottages_text;
   document.querySelector('#signs').innerHTML = traduction.signs + '  <i class="fas fa-lock"></i>';
   document.querySelector('#signs-text').textContent = traduction.signs_text;
-  document.querySelector('#infineed').innerHTML = traduction.infineed + '  <i class="fas fa-lock"></i>';
+  document.querySelector('#infineed').innerHTML = traduction.infineed;
   document.querySelector('#infineed-text').textContent = traduction.infineed_text;
   document.querySelector('#portfolio').textContent = traduction.portfolio;
   document.querySelector('#portfolio-text').textContent = traduction.portfolio_text;
