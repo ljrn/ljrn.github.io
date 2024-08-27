@@ -6,7 +6,7 @@ const trad = {
     "contact": "Me contacter",
     "my_works": "Mes principaux travaux",
     "inforoutes": "Inforoutes",
-    "inforoutes_text": "Cette application a été créée pour permettre aux Nordistes et aux agents du Département du Nord de visualiser les interventions en cours et à venir sur le réseau routier départemental et de consulter les détails des chaussées.",
+    "inforoutes_text": "Cette application a été créée pour permettre aux Nordistes et aux agents du Département du Nord de visualiser les interventions en cours et à venir sur le réseau routier départemental et de consulter les détails des chaussées du Nord.",
     "carottages": "Classification automatique de carottages routiers",
     "carottages_text": "Ce modèle de Machine Learning (XGBoost) a été entraîné afin de mieux connaître les routes du Département du Nord. Il a pour but de reconnaître les carottages routiers et de les classer dans différentes catégories afin d'établir des structures de routes homogènes.",
     "signs": "Reconnaissance automatique de panneaux de signalisation routière",
