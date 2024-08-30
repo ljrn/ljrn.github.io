@@ -39,6 +39,7 @@ const trad = {
     "education_text": "Education",
     "nord_date" : "2021 - Présent",
     "unine_text" : "Université de Neuchâtel (Suisse)",
+    "unine_text2" : "Université de Neuchâtel (Suisse)",
     "polytech_date": "2021 - Présent",
     "lang": "Langues",
     "french": "Français",
@@ -95,6 +96,7 @@ const trad = {
     "education_text": "Education",
     "nord_date" : "2021 - Present",
     "unine_text" : "University of Neuchâtel (Switzerland)",
+    "unine_text2" : "University of Neuchâtel (Switzerland)",
     "polytech_date": "2021 - Present",
     "lang": "Languages",
     "french": "French",
@@ -151,6 +153,7 @@ const trad = {
     "education_text": "Educación",
     "nord_date" : "2021 - Presente",
     "unine_text" : "Universidad de Neuchâtel (Suiza)",
+    "unine_text2" : "Universidad de Neuchâtel (Suiza)",
     "polytech_date": "2021 - Presente",
     "lang": "Idiomas",
     "french": "Francés",
@@ -207,6 +210,7 @@ const trad = {
     "education_text": "Educação",
     "nord_date" : "2021 - Presente",
     "unine_text" : "Universidade de Neuchâtel (Suíça)",
+    "unine_text2" : "Universidade de Neuchâtel (Suíça)",
     "polytech_date": "2021 - Presente",
     "lang": "Idiomas",
     "french": "Francês",
@@ -289,6 +293,7 @@ const changeLanguage = (language) => {
   document.querySelector('#education_text').textContent = traduction.education_text;
   document.querySelector('#nord_date').textContent = traduction.nord_date;
   document.querySelector('#unine_text').textContent = traduction.unine_text;
+  document.querySelector('#unine_text2').textContent = traduction.unine_text2;
   document.querySelector('#polytech_date').textContent = traduction.polytech_date;
   document.querySelector('#lang').textContent = traduction.lang;
   document.querySelector('#french').innerHTML = `<img class="flag" src="./images/France.png"/>${traduction.french}<div class="text">${traduction.mother_tongue}</div>`;
