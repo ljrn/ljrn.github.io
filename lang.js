@@ -5,6 +5,8 @@ const trad = {
     "work": "Mes travaux",
     "contact": "Me contacter",
     "my_works": "Mes principaux travaux",
+    "prt": "ProRealTime (Mobile / Web)",
+    "prt_text": "J'ai participé au développement d'applications Web / Mobile de Trading dans une équipe de 4 personnes. Ces applications permettent aux utilisateurs de faire des trades et de suivre les cours de la bourse, ainsi que de définir des indicateurs sur ces cours.",
     "inforoutes": "Inforoutes",
     "inforoutes_text": "Cette application a été créée pour permettre aux Nordistes et aux agents du Département du Nord de visualiser les interventions en cours et à venir sur le réseau routier départemental et de consulter les détails des chaussées du Nord.",
     "carottages": "Classification automatique de carottages routiers",
@@ -32,16 +34,14 @@ const trad = {
     "M3d": "Logiciel de modélisation 3D",
     "M3d_text": "Ce logiciel a été créé pour transformer les modèles . ply en modèles 3D en utilisant JavaFX et le design pattern MVC. Il a été développé en collaboration avec trois collègues nommés Baptiste Momut, Mohamed Bourdim et Mohnes Hamroun. La visualisation est faite en JavaFX et s'appuie sur des transformations mathématiques permettant de manipuler le nuage de points.",
     "about_me_text": "À propos de moi",
-    "about_text": "Actuellement étudiant en formation d'Ingénieur Informatique et Statistique à l’École polytechnique de l’Université de Lille (Polytech), je suis également apprenti au \"Département du Nord\" en tant que Machine Learning et Software Engineer. Avant Polytech, j’ai étudié le développement logiciel pendant 2 ans à l’Institut Universitaire de Technologie de Lille. Ces 2 années m’ont permis de découvrir le développement logiciel et obtenir mon premier diplôme dans ce domaine.",
+    "about_text": "Actuellement Ingénieur Logiciel chez IT-Finance, je suis spécialisé dans la conception et le développement d’applications dans le domaine du trading. Mes compétences solides en Intelligence Artificielle, couplées à mon expérience dans le domaine de la recherche, me permettent d’aborder les avancées technologiques avec ambition et passion. A la recherche d’une opportunité en tant qu’Ingénieur Logiciel ou Data Analyst / Scientist en Suisse, je suis déterminé à apporter des solutions innovantes pour répondre aux défis technologiques de demain.",
     "skills": "Mes compétences",
     "employment_education_title": "Emploi et Education",
     "employment_text": "Emploi",
     "education_text": "Education",
-    "nord_date" : "2021 - Présent",
+    "itf_date" : "2024 - Présent",
     "unine_text" : "Université de Neuchâtel (Suisse)",
-    "unine_date" : "2023 - Présent",
     "unine_text2" : "Université de Neuchâtel (Suisse)",
-    "polytech_date": "2021 - Présent",
     "lang": "Langues",
     "french": "Français",
     "mother_tongue":"Langue maternelle",
@@ -63,6 +63,8 @@ const trad = {
     "work": "My work",
     "contact": "Contact me",
     "my_works": "My main work",
+    "prt": "ProRealTime (Mobile / Web)",
+    "prt_text": "I participated in the development of Web/Mobile Trading applications in a team of 4 people. These applications allow users to trade and track stock market prices, as well as set indicators on these prices.",
     "inforoutes": "Inforoutes",
     "inforoutes_text": "This application was created to allow Northeners and agents of the \"Département du Nord\" to visualize the interventions in progress and to come on the departmental road network and to consult the details of the roadways.",
     "carottages": "Automatic classification of road corings",
@@ -90,16 +92,14 @@ const trad = {
     "M3d": "3D Modeling Software",
     "M3d_text": "This software has been created to transform .ply models into 3D models using JavaFX and MVC pattern. It has been developped in collaboration with three collegues named Baptiste Momut, Mohamed Bourdim and Mohnes Hamroun. The visualization is made with JavaFX and relies on mathematical transformations to manipulate the point cloud.",
     "about_me_text": "About me",
-    "about_text": "Currently studying Software Engineering and Data Science at the Polytechnic University For Sciences and Technologies of Lille (Polytech), I am also apprentice at the \"Département du Nord\" as a Machine Learning and Software Engineer. Before Polytech, I studied software development for 2 years at the University Institute of Technology of Lille. These 2 years have allowed me to discover software development and get my first diploma in this field.",
+    "about_text": "Currently a Software Engineer at IT-Finance, I am specialized in the design and development of applications in the field of trading. My strong skills in Artificial Intelligence, coupled with my experience in the field of research, allow me to approach technological advances with ambition and passion. Looking for an opportunity as a Software Engineer or Data Analyst / Scientist in Switzerland, I am determined to provide innovative solutions to meet the technological challenges of tomorrow.",
     "skills": "My skills",
     "employment_education_title": "Employment and Education",
     "employment_text": "Employment",
     "education_text": "Education",
-    "nord_date" : "2021 - Present",
+    "itf_date" : "2024 - Present",
     "unine_text" : "University of Neuchâtel (Switzerland)",
-    "unine_date" : "2023 - Present",
     "unine_text2" : "University of Neuchâtel (Switzerland)",
-    "polytech_date": "2021 - Present",
     "lang": "Languages",
     "french": "French",
     "mother_tongue":"Mother tongue",
@@ -121,6 +121,8 @@ const trad = {
     "work": "Mis trabajos",
     "contact": "Contactarme",
     "my_works": "Mis trabajos principales",
+    "prt": "ProRealTime (Mobile / Web)",
+    "prt_text": "Participé en el desarrollo de aplicaciones web/ móvil de Trading en un equipo de 4 personas. Estas aplicaciones permiten a los usuarios realizar operaciones y seguir las cotizaciones de la bolsa, así como definir indicadores sobre estos precios.",
     "inforoutes": "Inforoutes",
     "inforoutes_text": "Esta aplicación fue creada para permitir a los habitantes del Norte y a los agentes del \"Département du Nord\" visualizar las intervenciones en curso y por venir en la red de carreteras departamentales y consultar los detalles de las calzadas.",
     "carottages": "Clasificación automática de perforación de carreteras",
@@ -148,16 +150,14 @@ const trad = {
     "M3d": "3D Modeling Software",
     "M3d_text": "Este software ha sido creado para transformar modelos . ply en modelos 3D utilizando JavaFX y MVC patrón. Ha sido desarrollado en colaboración con tres colegas llamados Baptiste Momut, Mohamed Bourdim y Mohnes Hamroun. La visualización se realiza con JavaFX y se basa en transformaciones matemáticas para manipular la nube de puntos.",
     "about_me_text": "Sobre mí",
-    "about_text": "Actualmente estudiando Software Engineering y Data Science en la Escuela Politécnica de la Universidad de Lille (Polytech), También soy aprendiz en el \"Département du Nord\" como Machine Learning y Software Engineer. Antes de Polytech, estudié Software Development durante 2 años en el Instituto Universitario de Tecnología de Lille. Estos 2 años me han permitido descubrir el software development y obtener mi primer diploma en este campo.",
+    "about_text": "Actualmente Software Engineer en IT-Finance, me especializo en el diseño y desarrollo de aplicaciones en el campo del trading. Mis fuertes habilidades en inteligencia artificial, junto con mi experiencia en el campo de la investigación, me permiten abordar los avances tecnológicos con ambición y pasión. En busca de una oportunidad como ingeniero de software o analista de datos/ científico en Suiza, estoy decidido a aportar soluciones innovadoras para responder a los desafíos tecnológicos del futuro.",
     "skills": "Mis competencias",
     "employment_education_title": "Empleo y Educación",
     "employment_text": "Empleo",
     "education_text": "Educación",
-    "nord_date" : "2021 - Presente",
+    "itf_date" : "2024 - Presente",
     "unine_text" : "Universidad de Neuchâtel (Suiza)",
-    "unine_date" : "2023 - Presente",
     "unine_text2" : "Universidad de Neuchâtel (Suiza)",
-    "polytech_date": "2021 - Presente",
     "lang": "Idiomas",
     "french": "Francés",
     "mother_tongue":"Idioma materno",
@@ -179,6 +179,8 @@ const trad = {
     "work": "Meus trabalhos",
     "contact": "Contactar-me",
     "my_works": "Meus trabalhos principais",
+    "prt": "ProRealTime (Mobile / Web)",
+    "prt_text": "Eu participei no desenvolvimento de aplicativos Web/ Mobile para o Trading em uma equipe de 4 pessoas. Estes aplicativos permitem que os usuários façam trades e monitorem os preços da bolsa, bem como definam indicadores sobre esses preços.",
     "inforoutes": "Inforoutes",
     "inforoutes_text": "Esta aplicação foi criada para permitir aos habitantes do Norte e aos agentes do \"Département du Nord\" visualizar as intervenções em curso e a vir na rede rodoviária departamental e consultar os detalhes das vias.",
     "carottages": "Classificação automática de perfurações rodoviárias",
@@ -206,16 +208,14 @@ const trad = {
     "M3d": "3D Modeling Software",
     "M3d_text": "Este software foi criado para transformar modelos .ply em modelos 3D usando JavaFX e MVC padrão. Foi desenvolvido em colaboração com três colegas chamados Baptiste Momut, Mohamed Bourdim e Mohnes Hamroun. A visualização é feita com JavaFX e é baseada em transformações matemáticas para manipular a nuvem de pontos.",
     "about_me_text": "Sobre mim",
-    "about_text": "Atualmente estudando Software Engineering e Data Science na Escola Politécnica da Universidade de Lille (Polytech), também sou aprendiz no \"Département du Nord \" como Machine Learning e Software Engineer. Antes da Polytech, estudei Software Development durante 2 anos no Instituto Universitário de Tecnologia de Lille. Estes 2 anos me permitiram descobrir o software development e obter meu primeiro diploma neste campo.",
+    "about_text": "Atualmente Software Engineer na IT-Finance, sou especialista em design e desenvolvimento de aplicativos no campo da negociação. As minhas sólidas competências em Inteligência Artificial, aliadas à minha experiência na área da investigação, permitem-me abordar os avanços tecnológicos com ambição e paixão. À procura de uma oportunidade como Engenheiro de Software ou Analista de Dados/ Cientista na Suíça, estou determinado a trazer soluções inovadoras para responder aos desafios tecnológicos do futuro.",
     "skills": "Minhas competências",
     "employment_education_title": "Emprego e Educação",
     "employment_text": "Emprego",
     "education_text": "Educação",
-    "nord_date" : "2021 - Presente",
+    "itf_date" : "2024 - Presente",
     "unine_text" : "Universidade de Neuchâtel (Suíça)",
-    "unine_date" : "2023 - Presente",
     "unine_text2" : "Universidade de Neuchâtel (Suíça)",
-    "polytech_date": "2021 - Presente",
     "lang": "Idiomas",
     "french": "Francês",
     "mother_tongue":"Língua materna",
@@ -264,6 +264,8 @@ const changeLanguage = (language) => {
   document.querySelector('#m-work').textContent = traduction.work;
   document.querySelector('#m-contact').textContent = traduction.contact;
   document.querySelector('#my-works').textContent = traduction.my_works;
+  document.querySelector('#prt').innerHTML = traduction.prt;
+  document.querySelector('#prt-text').textContent = traduction.prt_text;
   document.querySelector('#inforoutes').innerHTML = traduction.inforoutes;
   document.querySelector('#inforoutes-text').textContent = traduction.inforoutes_text;
   document.querySelector('#carottages').innerHTML = traduction.carottages + '  <i class="fas fa-lock"></i>';
@@ -295,11 +297,9 @@ const changeLanguage = (language) => {
   document.querySelector('#employment_education_title').textContent = traduction.employment_education_title;
   document.querySelector('#employment_text').textContent = traduction.employment_text;
   document.querySelector('#education_text').textContent = traduction.education_text;
-  document.querySelector('#nord_date').textContent = traduction.nord_date;
+  document.querySelector('#itf_date').textContent = traduction.itf_date;
   document.querySelector('#unine_text').textContent = traduction.unine_text;
-  document.querySelector('#unine_date').textContent = traduction.unine_date;
   document.querySelector('#unine_text2').textContent = traduction.unine_text2;
-  document.querySelector('#polytech_date').textContent = traduction.polytech_date;
   document.querySelector('#lang').textContent = traduction.lang;
   document.querySelector('#french').innerHTML = `<img class="flag" src="./images/France.png"/>${traduction.french}<div class="text">${traduction.mother_tongue}</div>`;
   document.querySelector('#english').innerHTML = `<img class="flag" src="./images/UK.png"/>${traduction.english}<div class="text">C1 (TOEIC 2023: 940/1000 + Language School Certification)</div>`;
